@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,27 +10,90 @@
     <header>
         <h1>
             <a href="#default">
-                <img src=".." alt="Antoni Van Leeuwenhoek">
+                <img src="logo.png" alt="Antoni Van Leeuwenhoek">
             </a>
         </h1>
         <nav>
             <a href="index.html">Webinars</a>
-            <a href="">Contourings</a>
-            <a href="index.html">Profile</a>
-            <a href="index.html">Start searching</a>
+            <a href="contourings.html">Contourings</a>
+            <a href="profile.html">Profile</a>
+            <a href="search.html">Start Searching</a>
         </nav>
     </header>
 
     <main>
+        <!-- Search Form -->
         <form>
-            <input type="search">
-            <button>Zoeken</button>
+            <input type="search" placeholder="Search...">
+            <button type="submit">Zoeken</button>
         </form>
 
+        <!-- Featured Section -->
+        <section id="featured">
+            <h2>Featured</h2>
+            <article>
+                <h3>IRIOS CME Webinar: Abdominopelvic (AP) Series: Re-irradiation in cervical cancer</h3>
+                <p>Description of the webinar content goes here...</p>
+                <button>See More</button>
+            </article>
+            <img src="featured-image.png" alt="Gynaecology Image">
+        </section>
+
+        <!-- Newest Webinars Section -->
+        <section id="newest-webinars">
+            <h2>Newest Webinars</h2>
+            <div class="webinar-card">
+                <h3>Neuro-Oncology</h3>
+                <p>IRIOS CME Webinar: Fractionation in Head...</p>
+                <a href="#">Link</a>
+                <button>See More</button>
+            </div>
+            <div class="webinar-card">
+                <h3>Urology</h3>
+                <p>TPL Group Updates & Exchange Forum: Upd...</p>
+                <a href="#">Link</a>
+                <button>See More</button>
+            </div>
+            <div class="webinar-card">
+                <h3>Gynaecology</h3>
+                <p>IRIOS CME Webinar: Abdominopelvic (AP)...</p>
+                <a href="#">Link</a>
+                <button>See More</button>
+            </div>
+            <div class="webinar-card">
+                <h3>Gastrointestinal</h3>
+                <p>26th TARO Webinar: Updated management...</p>
+                <a href="#">Link</a>
+                <button>See More</button>
+            </div>
+        </section>
+
+        <!-- Newest Contourings Section -->
+        <section id="newest-contourings">
+            <h2>Newest Contourings</h2>
+            <div class="contouring-card">
+                <h3>IMA 4-31</h3>
+                <a href="#">Link</a>
+            </div>
+            <div class="contouring-card">
+                <h3>IMA 4-32</h3>
+                <a href="#">Link</a>
+            </div>
+            <div class="contouring-card">
+                <h3>IMA 4-33</h3>
+                <a href="#">Link</a>
+            </div>
+        </section>
     </main>
 
     <footer>
-
+        <p>&copy; 2024 Oncollaboration. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy Statement</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </footer>
-    </body>
-    </html>
+    
+</body>
+</html>
