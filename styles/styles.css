@@ -60,6 +60,7 @@ header ul li a {
 
 #featured {
     background-color: #fff;
+    border:2px;
     padding: 40px 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
