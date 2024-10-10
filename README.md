@@ -1,6 +1,6 @@
 
 
-## Inhoudsopgave Readme
+<h1> Inhoudsopgave Readme </h1>
 
 Dit project is ontstaan naar aanleiding van een jaar verblijf in Indonesië met als doel de gezondheidszorg in het land beter te leren kennen. Tijdens dit verblijf werd duidelijk dat er behoefte is aan meer interactie met de internationale medische gemeenschap. Het doel van dit project is om de communicatie tussen Nederland en Indonesië te verbeteren, specifiek op het gebied van oncologie. Het systeem dat we ontwikkelen moet artsen ondersteunen bij het delen van kennis, het bespreken van patiënten, en het evalueren van medische beelden zoals CT-scans.
 
