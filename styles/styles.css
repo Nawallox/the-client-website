@@ -28,33 +28,35 @@ header ul li a {
     font-weight: bold;
 }
 
-.search-bar {
+.search-container {
     display: flex; /* Zorgt ervoor dat de input en knop naast elkaar staan */
     justify-content: center; /* Centreert de zoekbalk */
+    align-items: center; /* Verticaal centreren */
     margin: 20px 0; /* Voeg wat ruimte toe boven en onder de zoekbalk */
 }
 
-.search-bar input {
-    padding: 10px; /* Voeg wat ruimte toe binnen het invoerveld */
+.search-input {
+    padding: 10px; /* Voeg ruimte toe binnen het invoerveld */
     width: 300px; /* Breedte van de zoekbalk */
     border: 1px solid #ddd; /* Grijze rand */
     border-radius: 5px 0 0 5px; /* Maak de hoeken van de input rond */
     outline: none; /* Verwijder de standaard focus rand */
+    font-size: 16px; /* Tekstgrootte */
 }
 
-.search-bar button {
+.search-button {
     padding: 10px 20px; /* Voeg ruimte toe binnen de knop */
     background-color: #5c104e; /* Achtergrondkleur van de knop */
     color: white; /* Tekstkleur van de knop */
     border: none; /* Geen rand */
     border-radius: 0 5px 5px 0; /* Maak de hoeken van de knop rond */
     cursor: pointer; /* Cursor verandert naar pointer bij hover */
+    font-size: 16px; /* Tekstgrootte */
 }
 
-.search-bar button:hover {
+.search-button:hover {
     background-color: #4b0d3f; /* Donkerdere kleur bij hover */
 }
-
 
 #featured {
     background-color: #fff;
