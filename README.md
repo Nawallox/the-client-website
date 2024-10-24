@@ -10,7 +10,7 @@ nawallox.github.io/the-client-website/
 
   * <h1> Beschrijving </h1>
 
-  De website is ontworpen om artsen en medisch personeel te ondersteunen bij het delen van kennis en beelden in de context van oncologie. Het biedt een eenvoudige en effectieve manier om met elkaar te communiceren, CT-scans te evalueren, en relevante medische webinars en artikelen te delen. Dit bevordert niet alleen de samenwerking tussen Nederlandse en Indonesische artsen, maar verbetert ook de kwaliteit van de zorg door kennisuitwisseling.
+De website is ontworpen om artsen en medisch personeel te ondersteunen bij het delen van kennis en beelden in de context van oncologie. Het biedt een eenvoudige en effectieve manier om met elkaar te communiceren, CT-scans te evalueren, en relevante medische webinars en artikelen te delen. Dit bevordert niet alleen de samenwerking tussen Nederlandse en Indonesische artsen, maar verbetert ook de kwaliteit van de zorg door kennisuitwisseling.
 
 Features
 Chatsysteem
