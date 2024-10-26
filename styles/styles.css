@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,33 +29,33 @@ header ul li a {
 }
 
 .search-container {
-    display: flex; /* Zorgt ervoor dat de input en knop naast elkaar staan */
-    justify-content: center; /* Centreert de zoekbalk */
-    align-items: center; /* Verticaal centreren */
-    margin: 20px 0; /* Voeg wat ruimte toe boven en onder de zoekbalk */
+    display: flex; 
+    justify-content: center; /
+    align-items: center;
+    margin: 20px 0; 
 }
 
 .search-input {
-    padding: 10px; /* Voeg ruimte toe binnen het invoerveld */
-    width: 300px; /* Breedte van de zoekbalk */
-    border: 1px solid #ddd; /* Grijze rand */
-    border-radius: 5px 0 0 5px; /* Maak de hoeken van de input rond */
-    outline: none; /* Verwijder de standaard focus rand */
-    font-size: 16px; /* Tekstgrootte */
+    padding: 10px; 
+    width: 300px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px 0 0 5px; 
+    outline: none; 
+    font-size: 16px; 
 }
 
 .search-button {
-    padding: 10px 20px; /* Voeg ruimte toe binnen de knop */
-    background-color: #5c104e; /* Achtergrondkleur van de knop */
-    color: white; /* Tekstkleur van de knop */
-    border: none; /* Geen rand */
-    border-radius: 0 5px 5px 0; /* Maak de hoeken van de knop rond */
-    cursor: pointer; /* Cursor verandert naar pointer bij hover */
-    font-size: 16px; /* Tekstgrootte */
+    padding: 10px 20px; 
+    background-color: #5c104e; 
+    color: white; 
+    border: none; 
+    border-radius: 0 5px 5px 0;
+    cursor: pointer; 
+    font-size: 16px; 
 }
 
 .search-button:hover {
-    background-color: #4b0d3f; /* Donkerdere kleur bij hover */
+    background-color: #4b0d3f; 
 }
 
 #featured {
