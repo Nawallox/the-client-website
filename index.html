@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Webinars</title>
-        <link rel="stylesheet" href="styles/styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinars</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
+<body>
+    <header>
+        <nav>
+            <ul>
                 <li><a href="#">Webinars</a></li>
                 <li><a href="#">Contouring</a></li>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Start Searching</a></li>
             </ul>
         </nav>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Zoek...">
+            <button class="search-button">Zoeken</button>
+        </div>
     </header>
-    
-    <div class="search-container">
-        <input type="text" class="search-input" placeholder="Zoek...">
-        <button class="search-button">Zoeken</button>
-    </div>
-    
+
     <section id="featured">
         <h1>FEATURED</h1>
-        <div class="featured-content">
+        <article class="featured-content">
             <div class="left">
                 <h2>iROS CME Webinar: Abdomino-Pelvic (AP) Series: Re-irradiation in cervical cancer</h2>
                 <p>Re-irradiation in cervical cancer...</p>
                 <a href="#" class="btn">See More</a>
             </div>
-            
             <div class="right">
-                <img src="https://s3-alpha-sig.figma.com/img/965b/939e/80092fc7a2eda0bec804c51747284653?Expires=1729468800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=K0ng1UkIwrJls1lw3seDAr9QZaTqBCNNN7oqH9Rliu0i-j-8QVPfF17hDb96PjkGKoHOehHEZHFVXsDhB52UTMynRT5TxPnTuIiqb4m3cn4tL7m~NGXLmtZLLzBuUlG4g89~mTy52SfUXHWPVg341Lln0Rxz24zk~ECU6FPfFfuuKw8FH96sBRQScxu01c0DizuD56-8MBL74AooRwfmSOR5CmC21F1OCrYKWDxmopKVMEBw6QoxyKAplhMCeygGIF-HdOYUcgxhUMEWLMPCllnSjqwAxfYpraWLr-I728hz4pbS1FkS3PIoulgzu1u43TomaYhzlyF3dVoxO6MNFQ__" alt="Gynaecology"> 
+                <img src="image-url" alt="Gynaecology">
             </div>
-        </div>
+        </article>
     </section>
-    
+
     <section id="webinars">
         <h2>NEWEST WEBINARS</h2>
         <div class="categories">
@@ -52,42 +50,37 @@
             <button>Prostate</button>
             <button>Urology</button>
         </div>
-
-        <div class="webinar-list">
+        <article class="webinar-list">
             <article class="webinar">
                 <h3>NEURO-ONCOLOGY</h3>
                 <p>iROS CME Webinar: Fractionation in Head...</p>
                 <a href="#">Watch</a>
             </article>
-
             <article class="webinar">
                 <h3>UROLOGY</h3>
                 <p>TPL Group Updates & Exchange Forum...</p>
                 <a href="#">Watch</a>
             </article>
-
             <article class="webinar">
                 <h3>GYNAECOLOGY</h3>
                 <p>iROS CME Webinar: Abdomino-Pelvic (AP)...</p>
                 <a href="#">Watch</a>
             </article>
-
             <article class="webinar">
                 <h3>GASTROINTESTINAL</h3>
                 <p>26th FARO Webinar: Updated management...</p>
                 <a href="#">Watch</a>
             </article>
-        </div>
+        </article>
     </section>
 
     <section id="contouring">
         <h2>NEWEST CONTOURINGS</h2>
-        <div class="contouring-list">
+        <article class="contouring-list">
             <article class="contour">
                 <h3>IMA 4-31</h3>
                 <p>Lung</p>
             </article>
-
             <article class="contour">
                 <h3>IMA 4-32</h3>
                 <p>Lung</p>
@@ -96,7 +89,7 @@
                 <h3>IMA 4-33</h3>
                 <p>Lung</p>
             </article>
-        </div>
+        </article>
     </section>
 
     <footer>
