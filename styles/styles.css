@@ -7,136 +7,79 @@ body {
     color: #333;
 }
 
+/* Header met Grid */
 header {
     background-color: #5c104e;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
 
-header ul {
-    list-style: none;
+nav ul {
     display: flex;
     justify-content: space-around;
+    list-style: none;
+    padding: 0;
 }
 
-header ul li {
-    display: inline;
-}
-
-header ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 .search-container {
-    display: flex; 
-    justify-content: center; /
-    align-items: center;
-    margin: 20px 0; 
-}
-
-.search-input {
-    padding: 10px; 
-    width: 300px; 
-    border: 1px solid #ddd; 
-    border-radius: 5px 0 0 5px; 
-    outline: none; 
-    font-size: 16px; 
-}
-
-.search-button {
-    padding: 10px 20px; 
-    background-color: #5c104e; 
-    color: white; 
-    border: none; 
-    border-radius: 0 5px 5px 0;
-    cursor: pointer; 
-    font-size: 16px; 
-}
-
-.search-button:hover {
-    background-color: #4b0d3f; 
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 5px;
+    justify-items: center;
 }
 
 #featured {
     background-color: #e6bcf3;
-    border:2px;
     padding: 40px 20px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #93057b;
 }
 
 #featured h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .featured-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.featured-content .left {
-    width: 60%;
-}
-
-.featured-content .right {
-    width: 35%;
+    display: grid;
+    grid-template-columns: 1fr; /* Default voor mobiele weergave */
+    gap: 10px;
 }
 
 .featured-content img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 8px;
-}
-
-.featured-content .btn {
-    background-color: #5c104e;
-    color: rgb(245, 191, 252);
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
 }
 
 #webinars {
     background-color: #fff;
     padding: 40px 20px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px;
     margin-bottom: 20px;
 }
 
-#webinars h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
+.webinar-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Default voor mobiele weergave */
+    gap: 10px;
 }
 
-#webinars .categories button {
-    background-color: #5c104e;
-    color: white;
-    border: none;
-    padding: 10px;
-    margin-right: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#webinars .webinar-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-#webinars .webinar {
+.webinar {
     background-color: #f0f0f0;
     padding: 20px;
-    width: 23%;
     border-radius: 8px;
-}
-
-#webinars .webinar h3 {
-    color: #5c104e;
-}
-
-#webinars .webinar a {
-    color: #5c104e;
-    text-decoration: none;
 }
 
 #contouring {
@@ -144,45 +87,57 @@ header ul li a {
     padding: 40px 20px;
 }
 
-#contouring h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
+.contouring-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Default voor mobiele weergave */
+    gap: 10px;
 }
 
-#contouring .contouring-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-#contouring .contour {
+.contour {
     background-color: #f0f0f0;
     padding: 20px;
-    width: 30%;
     border-radius: 8px;
-}
-
-#contouring .contour h3 {
-    color: #5c104e;
 }
 
 footer {
     background-color: #5c104e;
     color: white;
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
 
 footer ul {
+    display: flex;
+    justify-content: center;
     list-style: none;
     padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 10px;
+    gap: 10px;
 }
 
 footer ul li a {
     color: white;
     text-decoration: none;
+}
+
+/* Media Queries voor grotere schermen */
+@media (min-width: 768px) {
+    .featured-content {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .webinar-list,
+    .contouring-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .webinar-list,
+    .contouring-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
 }
