@@ -50,8 +50,8 @@
 
     /*typografy*/
 
-    --primary-font: "Inter", serif; 
-    --secondary-font: "Jost", serif;
+    --primary-font: "inter", serif; 
+    --secondary-font: "jost", serif;
 
     --font-weight-light: 200;
     --font-weight-regular: 400;
@@ -66,7 +66,7 @@
     --font-size-m-l: 20px;
     --font-size-m: 18px;
     --font-size-s: 16px;
-   /* px--> em*/
+   /* px --> em*/
 
     /*forms*/
 /*
@@ -78,10 +78,40 @@
     */
 }
 
+body {
+   background-color: #f2d1dd;
+}
+
+/*Color*/
+.kleur1 {
+background-color:#6a0025;
+color: #fff;
+}
+
+.kleur2 {
+   background-color: #1F000B;
+   color: #fff;
+}
+
+.kleur3 {
+   background-color: #f4eaee;
+   color: #000;
+}
+
+.kleur4 {
+   background-color: #fff;
+   color: #000;
+}
+
+.kleur5 {
+   background-color: #000;
+   color: #fff;
+}
+
 /*Typografie*/
 h1{
  font-size: var(--font-size-xxl);
- font-family: var(  --secondary-font);
+ font-family: var(--secondary-font);
 }
 
 h2{
@@ -131,4 +161,10 @@ thead tr th{
 tbody tr td{
    font-size: var(--font-size-s);
    font-family: var( --secondary-font);
+}
+
+
+
+button {
+   background-color: var(--button-active);
 }
